@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Coin
+  - Character
+  - Trap
+  - chck
+  - GM
+  - Enemy
+  - Vision
+  - fall
+  - Tileset
+  - RangedEnemy
+  - PassiveEnemy
+  - HUD
+  - LevelEnd
+  - levelEnderMove
+  - MovingPlatform
+  - RespawnPoint
+  - tutorialPersonal
+  - Priest
+  - DestroyRock
+  - Puppet
+  - Coin1
+  - Coin5
+  - Chest
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Player
+  - Enemy
+  - Environment
+  - buttons
+  - traps
+  - background
+  - 
+  - 
+  - 
+  - 
+  - 
+  - BackGrounds
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BackGrounds
+    uniqueID: 3729085913
+    locked: 0
+  - name: Background
+    uniqueID: 370939337
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: environment
+    uniqueID: 3515075611
+    locked: 0
+  - name: Controller
+    uniqueID: 3070941013
+    locked: 0
+  - name: Ground
+    uniqueID: 1627612641
+    locked: 0
+  - name: PauseMenu
+    uniqueID: 2621786503
+    locked: 0
+  - name: New Layer
+    uniqueID: 2961099711
+    locked: 0

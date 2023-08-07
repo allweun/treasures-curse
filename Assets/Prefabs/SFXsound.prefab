@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3897265450305404625
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7257281837286199188}
+  - component: {fileID: 1654450533586904202}
+  m_Layer: 0
+  m_Name: SFXsound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7257281837286199188
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3897265450305404625}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1654450533586904202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3897265450305404625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db31506cf6b7e4d459fabb6a916bc1d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audiosrc: {fileID: 0}
+  mixerGroup: {fileID: 24300002, guid: 02a02f4d146b8dc42a91391b02618562, type: 2}
+  sounds:
+  - name: Walk
+    clip: {fileID: 8300000, guid: 2e4064ff9a608134091cfbd656545e22, type: 3}
+    volume: 1
+    volumeVariance: 0.14
+    pitch: 1
+    pitchVariance: 0.35
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: AttackSword
+    clip: {fileID: 8300000, guid: 41e80475588621e4db2a0b7fdf13b68d, type: 3}
+    volume: 0.7
+    volumeVariance: 0.14
+    pitch: 1
+    pitchVariance: 0.35
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Attack
+    clip: {fileID: 8300000, guid: 669eb571e2671b9459a8ea0a247f82c2, type: 3}
+    volume: 0.7
+    volumeVariance: 0.14
+    pitch: 1
+    pitchVariance: 0.35
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: 326e3481f9bbf3a4dae6027072fc5a0e, type: 3}
+    volume: 0.7
+    volumeVariance: 0.14
+    pitch: 1
+    pitchVariance: 0.35
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Hground
+    clip: {fileID: 8300000, guid: 3f96046314c437843b69aacd3c4118be, type: 3}
+    volume: 0.7
+    volumeVariance: 0.14
+    pitch: 1
+    pitchVariance: 0.35
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Dtaken
+    clip: {fileID: 8300000, guid: 72b698076edad9d4d9e63ba19c9a8924, type: 3}
+    volume: 0.7
+    volumeVariance: 0.14
+    pitch: 1
+    pitchVariance: 0.35
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  isSoundPlaying: 0
