@@ -11,22 +11,24 @@ public class cameraStopper : MonoBehaviour
     private float xmin;
     public float beklemeSuresi;
 
-    void Start(){
-        xmax=cameraEX.XMaxVal;
-        xmin=cameraEX.XMinVal;
+    void Start()
+    {
+        xmax = cameraEX.XMaxVal;
+        xmin = cameraEX.XMinVal;
     }
-    public void OnTriggerEnter2D(Collider2D tag){
-        if(tag.CompareTag("Character"))
-        {
-            cameraEX.XMaxVal=kilitx;
-            cameraEX.XMinVal=kilitxMin;
-            StartCoroutine(Bekleme());
-        }
+    public void OnTriggerEnter2D(Collider2D colliderTag)
+    {
+        if (!colliderTag.CompareTag("Character"))
+            return;
+        cameraEX.XMaxVal = kilitx;
+        cameraEX.XMinVal = kilitxMin;
+        StartCoroutine(WaitRoutine());
     }
-    public IEnumerator Bekleme(){
+    private IEnumerator WaitRoutine()
+    {
         yield return new WaitForSeconds(beklemeSuresi);
-        cameraEX.XMaxVal=xmax;
-        cameraEX.XMinVal=xmin;
+        cameraEX.XMaxVal = xmax;
+        cameraEX.XMinVal = xmin;
     }
 
 }

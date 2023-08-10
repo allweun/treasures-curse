@@ -153,7 +153,7 @@ TextureImporter:
       213: -7324567384461547807
     second: bridge_49
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -170,9 +170,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -182,8 +185,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -204,9 +207,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -218,6 +227,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -230,6 +240,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -242,6 +253,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -254,6 +266,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1319,9 +1345,59 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      bridge_0: -6265054668056534801
+      bridge_1: -376147737124152719
+      bridge_10: -148623952628889061
+      bridge_11: -7303210085012456935
+      bridge_12: 3448847341468102419
+      bridge_13: -1133062823051722532
+      bridge_14: 5349089883967073185
+      bridge_15: -3828879160874836515
+      bridge_16: 4765665906042226569
+      bridge_17: -3352470879580713305
+      bridge_18: 7428571008721200398
+      bridge_19: 1363704816770296850
+      bridge_2: -8818591403317373605
+      bridge_20: 8213807660296588899
+      bridge_21: -3829697632191995405
+      bridge_22: -1652991331605637544
+      bridge_23: 852408113502951293
+      bridge_24: 5506743234205320810
+      bridge_25: -3948226753833693378
+      bridge_26: -1219204306536809948
+      bridge_27: 799239771336016897
+      bridge_28: -7118456699923890268
+      bridge_29: 2900434580679807460
+      bridge_3: -4879604279965285802
+      bridge_30: -7456755334217157968
+      bridge_31: 5760822008028466785
+      bridge_32: -3020140972946996201
+      bridge_33: 5317739178602273899
+      bridge_34: 1736622790463672136
+      bridge_35: 8544595737737243728
+      bridge_36: 5461737273421128426
+      bridge_37: 5098266156339622472
+      bridge_38: -9058833982505424599
+      bridge_39: 5265596572595363091
+      bridge_4: 5074979543036475874
+      bridge_40: 432312270571510584
+      bridge_41: -7800140232357203360
+      bridge_42: 2636432348629103874
+      bridge_43: 7952710305226744180
+      bridge_44: 4252550467872087155
+      bridge_45: 8753869170856904231
+      bridge_46: -3896142028810489990
+      bridge_47: 6745882006638415733
+      bridge_48: -1023099057121261490
+      bridge_49: -7324567384461547807
+      bridge_5: -7189432014358526074
+      bridge_6: 6379489803180860466
+      bridge_7: -8893022260207064725
+      bridge_8: 57380674436846023
+      bridge_9: -2656099495401893300
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
