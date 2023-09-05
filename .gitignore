@@ -47,7 +47,6 @@ ExportedObj/
 *.opendb
 *.VC.db
 *.keystore
-*.meta
 
 # Specified Folders
 .idea/
