@@ -129,7 +129,7 @@ TextureImporter:
       213: 2424696621368681622
     second: tutorial tileset_41
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -146,9 +146,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -158,8 +161,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -180,9 +183,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -194,6 +203,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -206,6 +216,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -218,6 +229,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1115,9 +1153,51 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      tutorial tileset_0: -7573988472927964581
+      tutorial tileset_1: 6079079892461789300
+      tutorial tileset_10: -4769153167331114327
+      tutorial tileset_11: 5409331677448500711
+      tutorial tileset_12: -5628760347570775436
+      tutorial tileset_13: 6229037265874952914
+      tutorial tileset_14: 3361080356761866430
+      tutorial tileset_15: 397657257740674534
+      tutorial tileset_16: 5351854431820359753
+      tutorial tileset_17: 5906770200429713976
+      tutorial tileset_18: -7286924264522166589
+      tutorial tileset_19: 8974210697412998112
+      tutorial tileset_2: 1843642822345462892
+      tutorial tileset_20: 2791168048178282868
+      tutorial tileset_21: 8672493712776076374
+      tutorial tileset_22: 1623599681065919329
+      tutorial tileset_23: -400960819387301933
+      tutorial tileset_24: -7229751830031544384
+      tutorial tileset_25: -7850674656276807891
+      tutorial tileset_26: -2606994773100799738
+      tutorial tileset_27: -154009388155228293
+      tutorial tileset_28: -4934617540109797934
+      tutorial tileset_29: 2448322754782931252
+      tutorial tileset_3: 4582992811415447600
+      tutorial tileset_30: -3270771574611088661
+      tutorial tileset_31: -3820655336343988704
+      tutorial tileset_32: 8867898532898020163
+      tutorial tileset_33: 7712030754970152245
+      tutorial tileset_34: 1776789382113616197
+      tutorial tileset_35: -8924718470169975602
+      tutorial tileset_36: 1055566100596175883
+      tutorial tileset_37: -140699441854995804
+      tutorial tileset_38: 3708594297238955480
+      tutorial tileset_39: 2306615638643433420
+      tutorial tileset_4: -2906563644347937391
+      tutorial tileset_40: 5185074387929258782
+      tutorial tileset_41: 2424696621368681622
+      tutorial tileset_5: -2402110147055353794
+      tutorial tileset_6: 1624970934863838166
+      tutorial tileset_7: 1093491663247853895
+      tutorial tileset_8: 3372241031062427049
+      tutorial tileset_9: 6163934494764637757
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
